@@ -14055,3 +14055,69 @@ File Path                                    PID  Runtime      # DAGs    # Error
 /opt/airflow/dags/dag_dbt_calidad_aire.py                           1           0  0.20s           2026-03-27T01:24:16
 /opt/airflow/dags/dag_dbt_taller.py                                 1           0  0.29s           2026-03-27T01:23:57
 ================================================================================
+[2026-03-27T01:24:51.291+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/00_etl_basico_opa.py                              1           0  0.85s           2026-03-27T01:24:21
+/opt/airflow/dags/00_test_etl.py                                    1           0  0.24s           2026-03-27T01:24:28
+/opt/airflow/dags/dag_dbt_calidad_aire.py                           1           0  0.22s           2026-03-27T01:24:46
+/opt/airflow/dags/dag_dbt_taller.py                                 1           0  0.21s           2026-03-27T01:24:28
+================================================================================
+[2026-03-27T01:25:21.985+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/00_etl_basico_opa.py                              1           0  0.59s           2026-03-27T01:24:52
+/opt/airflow/dags/00_test_etl.py                                    1           0  0.19s           2026-03-27T01:24:58
+/opt/airflow/dags/dag_dbt_calidad_aire.py                           1           0  0.21s           2026-03-27T01:25:17
+/opt/airflow/dags/dag_dbt_taller.py                                 1           0  0.24s           2026-03-27T01:24:58
+================================================================================
+[2026-03-27T01:25:52.763+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/00_etl_basico_opa.py                              1           0  0.71s           2026-03-27T01:25:23
+/opt/airflow/dags/00_test_etl.py                                    1           0  0.22s           2026-03-27T01:25:29
+/opt/airflow/dags/dag_dbt_calidad_aire.py                           1           0  0.24s           2026-03-27T01:25:47
+/opt/airflow/dags/dag_dbt_taller.py                                 1           0  0.29s           2026-03-27T01:25:29
+================================================================================
+[2026-03-27T01:26:22.928+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/00_etl_basico_opa.py                              1           0  0.62s           2026-03-27T01:25:54
+/opt/airflow/dags/00_test_etl.py                                    1           0  0.22s           2026-03-27T01:26:00
+/opt/airflow/dags/dag_dbt_calidad_aire.py                           1           0  0.24s           2026-03-27T01:26:18
+/opt/airflow/dags/dag_dbt_taller.py                                 1           0  0.27s           2026-03-27T01:26:00
+================================================================================
+[2026-03-27T01:26:53.349+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/00_etl_basico_opa.py                              1           0  0.89s           2026-03-27T01:26:25
+/opt/airflow/dags/00_test_etl.py                                    1           0  0.20s           2026-03-27T01:26:31
+/opt/airflow/dags/dag_dbt_calidad_aire.py                           1           0  0.39s           2026-03-27T01:26:24
+/opt/airflow/dags/dag_dbt_taller.py                                 1           0  0.24s           2026-03-27T01:26:31
+================================================================================
+[2026-03-27T01:27:24.048+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/00_etl_basico_opa.py                              1           0  0.60s           2026-03-27T01:26:57
+/opt/airflow/dags/00_test_etl.py                                    1           0  0.23s           2026-03-27T01:27:01
+/opt/airflow/dags/dag_dbt_calidad_aire.py                           1           0  0.19s           2026-03-27T01:26:54
+/opt/airflow/dags/dag_dbt_taller.py                                 1           0  0.21s           2026-03-27T01:27:01
+================================================================================
