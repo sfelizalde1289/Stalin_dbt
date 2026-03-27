@@ -14,7 +14,7 @@ def ejecutar_dbt_resiliente(comando: str, directorio: str):
         comando, cwd=directorio, shell=True, capture_output=True, text=True
     )
     if resultado.returncode != 0:
-        print(f"Error dbt:\n{resultado.stderr}\n{resultado.stdout}")
+        print(f"Error dbt:\n{resultado.stderr}\n{resultado.stdout}") #dbt
         raise Exception(f"Fallo en: {comando}")
     print(f"Éxito:\n{resultado.stdout}")
     return True
