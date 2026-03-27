@@ -1,0 +1,108 @@
+[2026-03-14T14:28:15.446+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dag_dbt_taller.sembrar_datos manual__2026-03-14T14:28:11.290829+00:00 [queued]>
+[2026-03-14T14:28:15.457+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dag_dbt_taller.sembrar_datos manual__2026-03-14T14:28:11.290829+00:00 [queued]>
+[2026-03-14T14:28:15.458+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2026-03-14T14:28:15.478+0000] {taskinstance.py:2191} INFO - Executing <Task(_PythonDecoratedOperator): sembrar_datos> on 2026-03-14 14:28:11.290829+00:00
+[2026-03-14T14:28:15.488+0000] {standard_task_runner.py:60} INFO - Started process 268 to run task
+[2026-03-14T14:28:15.494+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'dag_dbt_taller', 'sembrar_datos', 'manual__2026-03-14T14:28:11.290829+00:00', '--job-id', '16', '--raw', '--subdir', 'DAGS_FOLDER/dag_dbt_taller.py', '--cfg-path', '/tmp/tmpkbac9fot']
+[2026-03-14T14:28:15.497+0000] {standard_task_runner.py:88} INFO - Job 16: Subtask sembrar_datos
+[2026-03-14T14:28:15.519+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.8/site-packages/***/settings.py:194 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2026-03-14T14:28:15.603+0000] {task_command.py:423} INFO - Running <TaskInstance: dag_dbt_taller.sembrar_datos manual__2026-03-14T14:28:11.290829+00:00 [running]> on host 7d6845c4d7f4
+[2026-03-14T14:28:15.776+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='dag_dbt_taller' AIRFLOW_CTX_TASK_ID='sembrar_datos' AIRFLOW_CTX_EXECUTION_DATE='2026-03-14T14:28:11.290829+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-03-14T14:28:11.290829+00:00'
+[2026-03-14T14:28:15.780+0000] {logging_mixin.py:188} INFO - Ejecutando: dbt seed en /opt/***/dbt/proyecto_unl
+[2026-03-14T14:28:27.437+0000] {logging_mixin.py:188} INFO - Error dbt:
+
+14:28:21  Running with dbt=1.9.0-b2
+14:28:22  Registered adapter: postgres=1.8.2
+14:28:24  Found 4 models, 4 data tests, 1 seed, 1 source, 424 macros
+14:28:24  
+14:28:24  Concurrency: 1 threads (target='dev')
+14:28:24  
+14:28:25  1 of 1 START seed file public.datos_clima ...................................... [RUN]
+14:28:25  1 of 1 ERROR loading seed file public.datos_clima .............................. [ERROR in 0.16s]
+14:28:25  
+14:28:25  Finished running 1 seed in 0 hours 0 minutes and 0.61 seconds (0.61s).
+14:28:25  
+14:28:25  Completed with 1 error, 0 partial successs, and 0 warnings:
+14:28:25  
+14:28:25    Database Error in seed datos_clima (seeds/datos_clima.csv)
+  column "temperatura" of relation "datos_clima" does not exist
+  LINE 2: ... "db_warehouse"."public"."datos_clima" ("ciudad", "temperatu...
+                                                               ^
+14:28:25  
+14:28:25  Done. PASS=0 WARN=0 ERROR=1 SKIP=0 TOTAL=1
+[2026-03-14T14:28:29.440+0000] {logging_mixin.py:188} INFO - Ejecutando: dbt seed en /opt/***/dbt/proyecto_unl
+[2026-03-14T14:28:38.623+0000] {logging_mixin.py:188} INFO - Error dbt:
+
+14:28:33  Running with dbt=1.9.0-b2
+14:28:34  Registered adapter: postgres=1.8.2
+14:28:36  Found 4 models, 4 data tests, 1 seed, 1 source, 424 macros
+14:28:36  
+14:28:36  Concurrency: 1 threads (target='dev')
+14:28:36  
+14:28:36  1 of 1 START seed file public.datos_clima ...................................... [RUN]
+14:28:36  1 of 1 ERROR loading seed file public.datos_clima .............................. [ERROR in 0.21s]
+14:28:36  
+14:28:36  Finished running 1 seed in 0 hours 0 minutes and 0.54 seconds (0.54s).
+14:28:36  
+14:28:36  Completed with 1 error, 0 partial successs, and 0 warnings:
+14:28:36  
+14:28:36    Database Error in seed datos_clima (seeds/datos_clima.csv)
+  column "temperatura" of relation "datos_clima" does not exist
+  LINE 2: ... "db_warehouse"."public"."datos_clima" ("ciudad", "temperatu...
+                                                               ^
+14:28:36  
+14:28:36  Done. PASS=0 WARN=0 ERROR=1 SKIP=0 TOTAL=1
+[2026-03-14T14:28:42.450+0000] {logging_mixin.py:188} INFO - Ejecutando: dbt seed en /opt/***/dbt/proyecto_unl
+[2026-03-14T14:28:53.548+0000] {logging_mixin.py:188} INFO - Error dbt:
+
+14:28:46  Running with dbt=1.9.0-b2
+14:28:47  Registered adapter: postgres=1.8.2
+14:28:51  Found 4 models, 4 data tests, 1 seed, 1 source, 424 macros
+14:28:51  
+14:28:51  Concurrency: 1 threads (target='dev')
+14:28:51  
+14:28:51  1 of 1 START seed file public.datos_clima ...................................... [RUN]
+14:28:51  1 of 1 ERROR loading seed file public.datos_clima .............................. [ERROR in 0.23s]
+14:28:51  
+14:28:51  Finished running 1 seed in 0 hours 0 minutes and 0.64 seconds (0.64s).
+14:28:52  
+14:28:52  Completed with 1 error, 0 partial successs, and 0 warnings:
+14:28:52  
+14:28:52    Database Error in seed datos_clima (seeds/datos_clima.csv)
+  column "temperatura" of relation "datos_clima" does not exist
+  LINE 2: ... "db_warehouse"."public"."datos_clima" ("ciudad", "temperatu...
+                                                               ^
+14:28:52  
+14:28:52  Done. PASS=0 WARN=0 ERROR=1 SKIP=0 TOTAL=1
+[2026-03-14T14:28:53.550+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/tenacity/__init__.py", line 382, in __call__
+    result = fn(*args, **kwargs)
+  File "/opt/airflow/dags/dag_dbt_taller.py", line 21, in ejecutar_dbt_resiliente
+    raise Exception(f"Fallo en: {comando}")
+Exception: Fallo en: dbt seed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/decorators/base.py", line 241, in execute
+    return_value = super().execute(context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/dag_dbt_taller.py", line 105, in sembrar_datos
+    ejecutar_dbt_resiliente("dbt seed", DBT_DIR)
+  File "/home/airflow/.local/lib/python3.8/site-packages/tenacity/__init__.py", line 289, in wrapped_f
+    return self(f, *args, **kw)
+  File "/home/airflow/.local/lib/python3.8/site-packages/tenacity/__init__.py", line 379, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "/home/airflow/.local/lib/python3.8/site-packages/tenacity/__init__.py", line 326, in iter
+    raise retry_exc from fut.exception()
+tenacity.RetryError: RetryError[<Future at 0x7bbe5f54fd90 state=finished raised Exception>]
+[2026-03-14T14:28:53.611+0000] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=dag_dbt_taller, task_id=sembrar_datos, execution_date=20260314T142811, start_date=20260314T142815, end_date=20260314T142853
+[2026-03-14T14:28:53.649+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 16 for task sembrar_datos (RetryError[<Future at 0x7bbe5f54fd90 state=finished raised Exception>]; 268)
+[2026-03-14T14:28:53.715+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2026-03-14T14:28:53.805+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

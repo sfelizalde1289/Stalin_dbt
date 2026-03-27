@@ -1,0 +1,12 @@
+proyecto_stalin:
+  outputs:
+    dev:
+      dbname: db_warehouse
+      host: postgres_warehouse
+      pass: password_dbt
+      port: 5432
+      schema: public
+      threads: 1
+      type: postgres
+      user: user_dbt
+  target: dev

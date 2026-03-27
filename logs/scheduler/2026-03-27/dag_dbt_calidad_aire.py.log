@@ -1,0 +1,231 @@
+[2026-03-27T01:08:10.144+0000] {processor.py:161} INFO - Started process (PID=194) to work on /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:08:10.147+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_dbt_calidad_aire.py for tasks to queue
+[2026-03-27T01:08:10.151+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:08:10.150+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:08:10.855+0000] {processor.py:840} INFO - DAG(s) 'dag_dbt_calidad_aire' retrieved from /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:08:11.764+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:08:11.764+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-27T01:08:11.787+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:08:11.787+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_dbt_calidad_aire to None, run_after=None
+[2026-03-27T01:08:11.854+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_dbt_calidad_aire.py took 1.720 seconds
+[2026-03-27T01:08:42.569+0000] {processor.py:161} INFO - Started process (PID=215) to work on /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:08:42.570+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_dbt_calidad_aire.py for tasks to queue
+[2026-03-27T01:08:42.572+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:08:42.571+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:08:42.603+0000] {processor.py:840} INFO - DAG(s) 'dag_dbt_calidad_aire' retrieved from /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:08:42.653+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:08:42.653+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-27T01:08:42.677+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:08:42.677+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_dbt_calidad_aire to None, run_after=None
+[2026-03-27T01:08:42.722+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_dbt_calidad_aire.py took 0.161 seconds
+[2026-03-27T01:09:12.835+0000] {processor.py:161} INFO - Started process (PID=237) to work on /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:09:12.836+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_dbt_calidad_aire.py for tasks to queue
+[2026-03-27T01:09:12.838+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:09:12.837+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:09:12.867+0000] {processor.py:840} INFO - DAG(s) 'dag_dbt_calidad_aire' retrieved from /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:09:12.935+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:09:12.934+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-27T01:09:12.959+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:09:12.958+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_dbt_calidad_aire to None, run_after=None
+[2026-03-27T01:09:13.024+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_dbt_calidad_aire.py took 0.196 seconds
+[2026-03-27T01:09:43.491+0000] {processor.py:161} INFO - Started process (PID=259) to work on /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:09:43.493+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_dbt_calidad_aire.py for tasks to queue
+[2026-03-27T01:09:43.494+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:09:43.493+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:09:43.523+0000] {processor.py:840} INFO - DAG(s) 'dag_dbt_calidad_aire' retrieved from /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:09:43.566+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:09:43.565+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-27T01:09:43.586+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:09:43.585+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_dbt_calidad_aire to None, run_after=None
+[2026-03-27T01:09:43.643+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_dbt_calidad_aire.py took 0.157 seconds
+[2026-03-27T01:10:13.719+0000] {processor.py:161} INFO - Started process (PID=280) to work on /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:10:13.720+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_dbt_calidad_aire.py for tasks to queue
+[2026-03-27T01:10:13.722+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:10:13.721+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:10:13.746+0000] {processor.py:840} INFO - DAG(s) 'dag_dbt_calidad_aire' retrieved from /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:10:13.797+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:10:13.796+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-27T01:10:13.811+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:10:13.811+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_dbt_calidad_aire to None, run_after=None
+[2026-03-27T01:10:13.860+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_dbt_calidad_aire.py took 0.145 seconds
+[2026-03-27T01:10:44.040+0000] {processor.py:161} INFO - Started process (PID=301) to work on /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:10:44.041+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_dbt_calidad_aire.py for tasks to queue
+[2026-03-27T01:10:44.042+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:10:44.042+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:10:44.065+0000] {processor.py:840} INFO - DAG(s) 'dag_dbt_calidad_aire' retrieved from /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:10:44.101+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:10:44.101+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-27T01:10:44.116+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:10:44.116+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_dbt_calidad_aire to None, run_after=None
+[2026-03-27T01:10:44.164+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_dbt_calidad_aire.py took 0.128 seconds
+[2026-03-27T01:11:14.296+0000] {processor.py:161} INFO - Started process (PID=322) to work on /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:11:14.297+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_dbt_calidad_aire.py for tasks to queue
+[2026-03-27T01:11:14.299+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:11:14.298+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:11:14.321+0000] {processor.py:840} INFO - DAG(s) 'dag_dbt_calidad_aire' retrieved from /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:11:14.356+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:11:14.356+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-27T01:11:14.373+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:11:14.373+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_dbt_calidad_aire to None, run_after=None
+[2026-03-27T01:11:14.426+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_dbt_calidad_aire.py took 0.134 seconds
+[2026-03-27T01:11:44.823+0000] {processor.py:161} INFO - Started process (PID=343) to work on /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:11:44.824+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_dbt_calidad_aire.py for tasks to queue
+[2026-03-27T01:11:44.826+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:11:44.826+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:11:44.853+0000] {processor.py:840} INFO - DAG(s) 'dag_dbt_calidad_aire' retrieved from /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:11:44.901+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:11:44.901+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-27T01:11:44.938+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:11:44.938+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_dbt_calidad_aire to None, run_after=None
+[2026-03-27T01:11:45.007+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_dbt_calidad_aire.py took 0.191 seconds
+[2026-03-27T01:12:15.279+0000] {processor.py:161} INFO - Started process (PID=364) to work on /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:12:15.280+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_dbt_calidad_aire.py for tasks to queue
+[2026-03-27T01:12:15.281+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:12:15.281+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:12:15.311+0000] {processor.py:840} INFO - DAG(s) 'dag_dbt_calidad_aire' retrieved from /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:12:15.357+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:12:15.356+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-27T01:12:15.385+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:12:15.384+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_dbt_calidad_aire to None, run_after=None
+[2026-03-27T01:12:15.554+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_dbt_calidad_aire.py took 0.280 seconds
+[2026-03-27T01:12:33.134+0000] {processor.py:161} INFO - Started process (PID=385) to work on /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:12:33.135+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_dbt_calidad_aire.py for tasks to queue
+[2026-03-27T01:12:33.136+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:12:33.136+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:12:33.226+0000] {processor.py:840} INFO - DAG(s) 'dag_dbt_calidad_aire' retrieved from /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:12:33.276+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:12:33.275+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-27T01:12:33.293+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:12:33.293+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_dbt_calidad_aire to None, run_after=None
+[2026-03-27T01:12:33.378+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_dbt_calidad_aire.py took 0.248 seconds
+[2026-03-27T01:13:03.712+0000] {processor.py:161} INFO - Started process (PID=407) to work on /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:13:03.714+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_dbt_calidad_aire.py for tasks to queue
+[2026-03-27T01:13:03.715+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:13:03.715+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:13:03.739+0000] {processor.py:840} INFO - DAG(s) 'dag_dbt_calidad_aire' retrieved from /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:13:03.783+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:13:03.782+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-27T01:13:03.799+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:13:03.798+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_dbt_calidad_aire to None, run_after=None
+[2026-03-27T01:13:03.875+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_dbt_calidad_aire.py took 0.170 seconds
+[2026-03-27T01:13:34.335+0000] {processor.py:161} INFO - Started process (PID=428) to work on /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:13:34.336+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_dbt_calidad_aire.py for tasks to queue
+[2026-03-27T01:13:34.338+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:13:34.337+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:13:34.371+0000] {processor.py:840} INFO - DAG(s) 'dag_dbt_calidad_aire' retrieved from /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:13:34.410+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:13:34.410+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-27T01:13:34.434+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:13:34.434+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_dbt_calidad_aire to None, run_after=None
+[2026-03-27T01:13:34.540+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_dbt_calidad_aire.py took 0.211 seconds
+[2026-03-27T01:14:04.675+0000] {processor.py:161} INFO - Started process (PID=450) to work on /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:14:04.677+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_dbt_calidad_aire.py for tasks to queue
+[2026-03-27T01:14:04.678+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:14:04.678+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:14:04.703+0000] {processor.py:840} INFO - DAG(s) 'dag_dbt_calidad_aire' retrieved from /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:14:04.737+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:14:04.737+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-27T01:14:04.751+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:14:04.751+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_dbt_calidad_aire to None, run_after=None
+[2026-03-27T01:14:04.801+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_dbt_calidad_aire.py took 0.129 seconds
+[2026-03-27T01:14:34.891+0000] {processor.py:161} INFO - Started process (PID=471) to work on /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:14:34.895+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_dbt_calidad_aire.py for tasks to queue
+[2026-03-27T01:14:34.898+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:14:34.897+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:14:34.931+0000] {processor.py:840} INFO - DAG(s) 'dag_dbt_calidad_aire' retrieved from /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:14:34.978+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:14:34.978+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-27T01:14:34.993+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:14:34.993+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_dbt_calidad_aire to None, run_after=None
+[2026-03-27T01:14:35.070+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_dbt_calidad_aire.py took 0.186 seconds
+[2026-03-27T01:15:05.301+0000] {processor.py:161} INFO - Started process (PID=493) to work on /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:15:05.302+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_dbt_calidad_aire.py for tasks to queue
+[2026-03-27T01:15:05.304+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:15:05.303+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:15:05.335+0000] {processor.py:840} INFO - DAG(s) 'dag_dbt_calidad_aire' retrieved from /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:15:05.386+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:15:05.386+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-27T01:15:05.404+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:15:05.404+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_dbt_calidad_aire to None, run_after=None
+[2026-03-27T01:15:05.475+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_dbt_calidad_aire.py took 0.180 seconds
+[2026-03-27T01:15:35.626+0000] {processor.py:161} INFO - Started process (PID=516) to work on /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:15:35.627+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_dbt_calidad_aire.py for tasks to queue
+[2026-03-27T01:15:35.629+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:15:35.628+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:15:35.656+0000] {processor.py:840} INFO - DAG(s) 'dag_dbt_calidad_aire' retrieved from /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:15:35.696+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:15:35.696+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-27T01:15:35.711+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:15:35.711+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_dbt_calidad_aire to None, run_after=None
+[2026-03-27T01:15:35.773+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_dbt_calidad_aire.py took 0.151 seconds
+[2026-03-27T01:16:06.099+0000] {processor.py:161} INFO - Started process (PID=538) to work on /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:16:06.100+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_dbt_calidad_aire.py for tasks to queue
+[2026-03-27T01:16:06.102+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:16:06.101+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:16:06.123+0000] {processor.py:840} INFO - DAG(s) 'dag_dbt_calidad_aire' retrieved from /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:16:06.163+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:16:06.163+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-27T01:16:06.179+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:16:06.179+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_dbt_calidad_aire to None, run_after=None
+[2026-03-27T01:16:06.258+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_dbt_calidad_aire.py took 0.164 seconds
+[2026-03-27T01:16:36.354+0000] {processor.py:161} INFO - Started process (PID=559) to work on /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:16:36.355+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_dbt_calidad_aire.py for tasks to queue
+[2026-03-27T01:16:36.356+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:16:36.356+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:16:36.380+0000] {processor.py:840} INFO - DAG(s) 'dag_dbt_calidad_aire' retrieved from /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:16:36.411+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:16:36.411+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-27T01:16:36.426+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:16:36.426+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_dbt_calidad_aire to None, run_after=None
+[2026-03-27T01:16:36.504+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_dbt_calidad_aire.py took 0.154 seconds
+[2026-03-27T01:17:06.878+0000] {processor.py:161} INFO - Started process (PID=580) to work on /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:17:06.880+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_dbt_calidad_aire.py for tasks to queue
+[2026-03-27T01:17:06.883+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:17:06.882+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:17:06.918+0000] {processor.py:840} INFO - DAG(s) 'dag_dbt_calidad_aire' retrieved from /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:17:06.958+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:17:06.958+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-27T01:17:06.982+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:17:06.982+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_dbt_calidad_aire to None, run_after=None
+[2026-03-27T01:17:07.039+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_dbt_calidad_aire.py took 0.168 seconds
+[2026-03-27T01:17:37.229+0000] {processor.py:161} INFO - Started process (PID=601) to work on /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:17:37.230+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_dbt_calidad_aire.py for tasks to queue
+[2026-03-27T01:17:37.231+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:17:37.231+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:17:37.255+0000] {processor.py:840} INFO - DAG(s) 'dag_dbt_calidad_aire' retrieved from /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:17:37.293+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:17:37.292+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-27T01:17:37.314+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:17:37.313+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_dbt_calidad_aire to None, run_after=None
+[2026-03-27T01:17:37.378+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_dbt_calidad_aire.py took 0.153 seconds
+[2026-03-27T01:18:07.832+0000] {processor.py:161} INFO - Started process (PID=616) to work on /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:18:07.833+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_dbt_calidad_aire.py for tasks to queue
+[2026-03-27T01:18:07.835+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:18:07.834+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:18:07.863+0000] {processor.py:840} INFO - DAG(s) 'dag_dbt_calidad_aire' retrieved from /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:18:07.903+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:18:07.903+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-27T01:18:07.922+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:18:07.922+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_dbt_calidad_aire to None, run_after=None
+[2026-03-27T01:18:08.010+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_dbt_calidad_aire.py took 0.185 seconds
+[2026-03-27T01:18:38.392+0000] {processor.py:161} INFO - Started process (PID=637) to work on /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:18:38.393+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_dbt_calidad_aire.py for tasks to queue
+[2026-03-27T01:18:38.394+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:18:38.394+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:18:38.417+0000] {processor.py:840} INFO - DAG(s) 'dag_dbt_calidad_aire' retrieved from /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:18:38.485+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:18:38.484+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-27T01:18:38.509+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:18:38.509+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_dbt_calidad_aire to None, run_after=None
+[2026-03-27T01:18:38.572+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_dbt_calidad_aire.py took 0.184 seconds
+[2026-03-27T01:19:08.678+0000] {processor.py:161} INFO - Started process (PID=658) to work on /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:19:08.680+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_dbt_calidad_aire.py for tasks to queue
+[2026-03-27T01:19:08.681+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:19:08.681+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:19:08.707+0000] {processor.py:840} INFO - DAG(s) 'dag_dbt_calidad_aire' retrieved from /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:19:08.741+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:19:08.740+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-27T01:19:08.755+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:19:08.755+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_dbt_calidad_aire to None, run_after=None
+[2026-03-27T01:19:08.824+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_dbt_calidad_aire.py took 0.150 seconds
+[2026-03-27T01:19:39.397+0000] {processor.py:161} INFO - Started process (PID=679) to work on /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:19:39.398+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_dbt_calidad_aire.py for tasks to queue
+[2026-03-27T01:19:39.399+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:19:39.399+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:19:39.425+0000] {processor.py:840} INFO - DAG(s) 'dag_dbt_calidad_aire' retrieved from /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:19:39.464+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:19:39.464+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-27T01:19:39.490+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:19:39.489+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_dbt_calidad_aire to None, run_after=None
+[2026-03-27T01:19:39.542+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_dbt_calidad_aire.py took 0.151 seconds
+[2026-03-27T01:20:10.210+0000] {processor.py:161} INFO - Started process (PID=700) to work on /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:20:10.213+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_dbt_calidad_aire.py for tasks to queue
+[2026-03-27T01:20:10.217+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:20:10.215+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:20:10.273+0000] {processor.py:840} INFO - DAG(s) 'dag_dbt_calidad_aire' retrieved from /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:20:10.336+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:20:10.335+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-27T01:20:10.359+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:20:10.359+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_dbt_calidad_aire to None, run_after=None
+[2026-03-27T01:20:10.412+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_dbt_calidad_aire.py took 0.208 seconds
+[2026-03-27T01:20:40.556+0000] {processor.py:161} INFO - Started process (PID=721) to work on /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:20:40.557+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_dbt_calidad_aire.py for tasks to queue
+[2026-03-27T01:20:40.558+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:20:40.557+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:20:40.579+0000] {processor.py:840} INFO - DAG(s) 'dag_dbt_calidad_aire' retrieved from /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:20:40.610+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:20:40.610+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-27T01:20:40.624+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:20:40.624+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_dbt_calidad_aire to None, run_after=None
+[2026-03-27T01:20:40.683+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_dbt_calidad_aire.py took 0.131 seconds
+[2026-03-27T01:21:11.218+0000] {processor.py:161} INFO - Started process (PID=749) to work on /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:21:11.219+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_dbt_calidad_aire.py for tasks to queue
+[2026-03-27T01:21:11.220+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:21:11.220+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:21:11.246+0000] {processor.py:840} INFO - DAG(s) 'dag_dbt_calidad_aire' retrieved from /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:21:11.279+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:21:11.279+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-27T01:21:11.305+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:21:11.305+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_dbt_calidad_aire to None, run_after=None
+[2026-03-27T01:21:11.371+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_dbt_calidad_aire.py took 0.158 seconds
+[2026-03-27T01:21:41.685+0000] {processor.py:161} INFO - Started process (PID=770) to work on /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:21:41.686+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_dbt_calidad_aire.py for tasks to queue
+[2026-03-27T01:21:41.687+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:21:41.687+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:21:41.711+0000] {processor.py:840} INFO - DAG(s) 'dag_dbt_calidad_aire' retrieved from /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:21:41.747+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:21:41.747+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-27T01:21:41.774+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:21:41.774+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_dbt_calidad_aire to None, run_after=None
+[2026-03-27T01:21:41.863+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_dbt_calidad_aire.py took 0.184 seconds
+[2026-03-27T01:22:12.005+0000] {processor.py:161} INFO - Started process (PID=792) to work on /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:22:12.006+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_dbt_calidad_aire.py for tasks to queue
+[2026-03-27T01:22:12.007+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:22:12.007+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:22:12.033+0000] {processor.py:840} INFO - DAG(s) 'dag_dbt_calidad_aire' retrieved from /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:22:12.070+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:22:12.069+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-27T01:22:12.095+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:22:12.095+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_dbt_calidad_aire to None, run_after=None
+[2026-03-27T01:22:12.383+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_dbt_calidad_aire.py took 0.384 seconds
+[2026-03-27T01:22:42.919+0000] {processor.py:161} INFO - Started process (PID=815) to work on /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:22:42.920+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_dbt_calidad_aire.py for tasks to queue
+[2026-03-27T01:22:42.921+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:22:42.921+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:22:42.944+0000] {processor.py:840} INFO - DAG(s) 'dag_dbt_calidad_aire' retrieved from /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:22:42.989+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:22:42.988+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-27T01:22:43.011+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:22:43.010+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_dbt_calidad_aire to None, run_after=None
+[2026-03-27T01:22:43.084+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_dbt_calidad_aire.py took 0.170 seconds
+[2026-03-27T01:23:13.931+0000] {processor.py:161} INFO - Started process (PID=838) to work on /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:23:13.932+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_dbt_calidad_aire.py for tasks to queue
+[2026-03-27T01:23:13.933+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:23:13.933+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:23:13.961+0000] {processor.py:840} INFO - DAG(s) 'dag_dbt_calidad_aire' retrieved from /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:23:14.005+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:23:14.005+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-27T01:23:14.031+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:23:14.029+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_dbt_calidad_aire to None, run_after=None
+[2026-03-27T01:23:14.081+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_dbt_calidad_aire.py took 0.154 seconds
+[2026-03-27T01:23:45.075+0000] {processor.py:161} INFO - Started process (PID=860) to work on /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:23:45.077+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_dbt_calidad_aire.py for tasks to queue
+[2026-03-27T01:23:45.078+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:23:45.078+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:23:45.105+0000] {processor.py:840} INFO - DAG(s) 'dag_dbt_calidad_aire' retrieved from /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:23:45.145+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:23:45.145+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-27T01:23:45.202+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:23:45.202+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_dbt_calidad_aire to None, run_after=None
+[2026-03-27T01:23:45.266+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_dbt_calidad_aire.py took 0.194 seconds
+[2026-03-27T01:24:15.865+0000] {processor.py:161} INFO - Started process (PID=881) to work on /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:24:15.866+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_dbt_calidad_aire.py for tasks to queue
+[2026-03-27T01:24:15.868+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:24:15.868+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:24:15.892+0000] {processor.py:840} INFO - DAG(s) 'dag_dbt_calidad_aire' retrieved from /opt/airflow/dags/dag_dbt_calidad_aire.py
+[2026-03-27T01:24:15.940+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:24:15.940+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-27T01:24:15.963+0000] {logging_mixin.py:188} INFO - [2026-03-27T01:24:15.963+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_dbt_calidad_aire to None, run_after=None
+[2026-03-27T01:24:16.027+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_dbt_calidad_aire.py took 0.165 seconds

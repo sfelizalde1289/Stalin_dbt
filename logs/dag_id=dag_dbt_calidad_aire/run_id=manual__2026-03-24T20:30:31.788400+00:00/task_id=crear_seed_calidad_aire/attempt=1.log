@@ -1,0 +1,15 @@
+[2026-03-24T20:30:33.191+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dag_dbt_calidad_aire.crear_seed_calidad_aire manual__2026-03-24T20:30:31.788400+00:00 [queued]>
+[2026-03-24T20:30:33.208+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dag_dbt_calidad_aire.crear_seed_calidad_aire manual__2026-03-24T20:30:31.788400+00:00 [queued]>
+[2026-03-24T20:30:33.209+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2026-03-24T20:30:33.327+0000] {taskinstance.py:2191} INFO - Executing <Task(_PythonDecoratedOperator): crear_seed_calidad_aire> on 2026-03-24 20:30:31.788400+00:00
+[2026-03-24T20:30:33.346+0000] {standard_task_runner.py:60} INFO - Started process 5639 to run task
+[2026-03-24T20:30:33.355+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'dag_dbt_calidad_aire', 'crear_seed_calidad_aire', 'manual__2026-03-24T20:30:31.788400+00:00', '--job-id', '166', '--raw', '--subdir', 'DAGS_FOLDER/dag_dbt_calidad_aire.py', '--cfg-path', '/tmp/tmp6f34oe8u']
+[2026-03-24T20:30:33.364+0000] {standard_task_runner.py:88} INFO - Job 166: Subtask crear_seed_calidad_aire
+[2026-03-24T20:30:33.438+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.8/site-packages/***/settings.py:194 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2026-03-24T20:30:33.539+0000] {task_command.py:423} INFO - Running <TaskInstance: dag_dbt_calidad_aire.crear_seed_calidad_aire manual__2026-03-24T20:30:31.788400+00:00 [running]> on host 5f43b8fdce6c
+[2026-03-24T20:30:33.903+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='dag_dbt_calidad_aire' AIRFLOW_CTX_TASK_ID='crear_seed_calidad_aire' AIRFLOW_CTX_EXECUTION_DATE='2026-03-24T20:30:31.788400+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-03-24T20:30:31.788400+00:00'
+[2026-03-24T20:30:33.910+0000] {logging_mixin.py:188} INFO - Archivo seed creado correctamente en: /opt/***/dbt/proyecto_stalin/seeds/calidad_aire.csv
+[2026-03-24T20:30:33.914+0000] {python.py:201} INFO - Done. Returned value was: None
+[2026-03-24T20:30:33.940+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=dag_dbt_calidad_aire, task_id=crear_seed_calidad_aire, execution_date=20260324T203031, start_date=20260324T203033, end_date=20260324T203033
+[2026-03-24T20:30:34.057+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-03-24T20:30:34.162+0000] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check

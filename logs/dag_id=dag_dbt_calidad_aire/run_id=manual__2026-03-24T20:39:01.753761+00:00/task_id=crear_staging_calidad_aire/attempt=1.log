@@ -1,0 +1,15 @@
+[2026-03-24T20:39:16.826+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dag_dbt_calidad_aire.crear_staging_calidad_aire manual__2026-03-24T20:39:01.753761+00:00 [queued]>
+[2026-03-24T20:39:16.842+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dag_dbt_calidad_aire.crear_staging_calidad_aire manual__2026-03-24T20:39:01.753761+00:00 [queued]>
+[2026-03-24T20:39:16.842+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2026-03-24T20:39:16.896+0000] {taskinstance.py:2191} INFO - Executing <Task(_PythonDecoratedOperator): crear_staging_calidad_aire> on 2026-03-24 20:39:01.753761+00:00
+[2026-03-24T20:39:16.908+0000] {standard_task_runner.py:60} INFO - Started process 6078 to run task
+[2026-03-24T20:39:16.911+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'dag_dbt_calidad_aire', 'crear_staging_calidad_aire', 'manual__2026-03-24T20:39:01.753761+00:00', '--job-id', '176', '--raw', '--subdir', 'DAGS_FOLDER/dag_dbt_calidad_aire.py', '--cfg-path', '/tmp/tmp9mp2ie6u']
+[2026-03-24T20:39:16.916+0000] {standard_task_runner.py:88} INFO - Job 176: Subtask crear_staging_calidad_aire
+[2026-03-24T20:39:16.967+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.8/site-packages/***/settings.py:194 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2026-03-24T20:39:17.043+0000] {task_command.py:423} INFO - Running <TaskInstance: dag_dbt_calidad_aire.crear_staging_calidad_aire manual__2026-03-24T20:39:01.753761+00:00 [running]> on host 5f43b8fdce6c
+[2026-03-24T20:39:17.240+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='dag_dbt_calidad_aire' AIRFLOW_CTX_TASK_ID='crear_staging_calidad_aire' AIRFLOW_CTX_EXECUTION_DATE='2026-03-24T20:39:01.753761+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-03-24T20:39:01.753761+00:00'
+[2026-03-24T20:39:17.252+0000] {logging_mixin.py:188} INFO - Modelo stg_calidad_aire.sql creado.
+[2026-03-24T20:39:17.253+0000] {python.py:201} INFO - Done. Returned value was: None
+[2026-03-24T20:39:17.272+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=dag_dbt_calidad_aire, task_id=crear_staging_calidad_aire, execution_date=20260324T203901, start_date=20260324T203916, end_date=20260324T203917
+[2026-03-24T20:39:17.367+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-03-24T20:39:17.402+0000] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check

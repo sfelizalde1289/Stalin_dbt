@@ -1,0 +1,32 @@
+[2026-03-24T20:38:12.461+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dag_dbt_calidad_aire.ejecutar_staging_calidad_aire manual__2026-03-24T20:37:49.584809+00:00 [queued]>
+[2026-03-24T20:38:12.482+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dag_dbt_calidad_aire.ejecutar_staging_calidad_aire manual__2026-03-24T20:37:49.584809+00:00 [queued]>
+[2026-03-24T20:38:12.483+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2026-03-24T20:38:12.680+0000] {taskinstance.py:2191} INFO - Executing <Task(_PythonDecoratedOperator): ejecutar_staging_calidad_aire> on 2026-03-24 20:37:49.584809+00:00
+[2026-03-24T20:38:12.688+0000] {standard_task_runner.py:60} INFO - Started process 5997 to run task
+[2026-03-24T20:38:12.693+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'dag_dbt_calidad_aire', 'ejecutar_staging_calidad_aire', 'manual__2026-03-24T20:37:49.584809+00:00', '--job-id', '173', '--raw', '--subdir', 'DAGS_FOLDER/dag_dbt_calidad_aire.py', '--cfg-path', '/tmp/tmplh0qgcqu']
+[2026-03-24T20:38:12.697+0000] {standard_task_runner.py:88} INFO - Job 173: Subtask ejecutar_staging_calidad_aire
+[2026-03-24T20:38:12.879+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.8/site-packages/***/settings.py:194 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2026-03-24T20:38:12.946+0000] {task_command.py:423} INFO - Running <TaskInstance: dag_dbt_calidad_aire.ejecutar_staging_calidad_aire manual__2026-03-24T20:37:49.584809+00:00 [running]> on host 5f43b8fdce6c
+[2026-03-24T20:38:13.799+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='dag_dbt_calidad_aire' AIRFLOW_CTX_TASK_ID='ejecutar_staging_calidad_aire' AIRFLOW_CTX_EXECUTION_DATE='2026-03-24T20:37:49.584809+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-03-24T20:37:49.584809+00:00'
+[2026-03-24T20:38:13.801+0000] {logging_mixin.py:188} INFO - Ejecutando: dbt run --models staging.* en /opt/***/dbt/proyecto_stalin
+[2026-03-24T20:38:25.111+0000] {logging_mixin.py:188} INFO - Éxito:
+20:38:18  Running with dbt=1.9.0-b2
+20:38:18  Registered adapter: postgres=1.8.2
+20:38:21  Found 5 models, 4 data tests, 2 seeds, 2 sources, 424 macros
+20:38:21  
+20:38:21  Concurrency: 1 threads (target='dev')
+20:38:21  
+20:38:22  1 of 2 START sql view model public.stg_calidad_aire ............................ [RUN]
+20:38:23  1 of 2 OK created sql view model public.stg_calidad_aire ....................... [CREATE VIEW in 0.79s]
+20:38:23  2 of 2 START sql view model public.stg_clima ................................... [RUN]
+20:38:23  2 of 2 OK created sql view model public.stg_clima .............................. [CREATE VIEW in 0.28s]
+20:38:23  
+20:38:23  Finished running 2 view models in 0 hours 0 minutes and 1.73 seconds (1.73s).
+20:38:23  
+20:38:23  Completed successfully
+20:38:23  
+20:38:23  Done. PASS=2 WARN=0 ERROR=0 SKIP=0 TOTAL=2
+[2026-03-24T20:38:25.124+0000] {python.py:201} INFO - Done. Returned value was: None
+[2026-03-24T20:38:25.161+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=dag_dbt_calidad_aire, task_id=ejecutar_staging_calidad_aire, execution_date=20260324T203749, start_date=20260324T203812, end_date=20260324T203825
+[2026-03-24T20:38:25.347+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-03-24T20:38:25.380+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

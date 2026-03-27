@@ -1,0 +1,30 @@
+[0m18:18:31.686344 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x72cb7d76f3d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x72cb7d054a30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x72cb7cf07520>]}
+
+
+============================== 18:18:31.805070 | f7abd209-6180-4fe5-a05d-064ba15d528a ==============================
+[0m18:18:31.805070 [info ] [MainThread]: Running with dbt=1.9.0-b2
+[0m18:18:31.811334 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': '/opt/airflow/dbt', 'log_path': 'logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt init proyecto_stalin', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m18:18:31.874906 [debug] [MainThread]: Starter project path: /home/airflow/.local/lib/python3.8/site-packages/dbt/include/starter_project
+[0m18:18:32.590578 [info ] [MainThread]: 
+Your new dbt project "proyecto_stalin" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m18:18:32.591519 [info ] [MainThread]: Setting up your profile.
+[0m18:23:37.041960 [info ] [MainThread]: Profile proyecto_stalin written to /opt/airflow/dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m18:23:37.050726 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 305.54565, "process_user_time": 3.504356, "process_kernel_time": 0.283262, "process_mem_max_rss": "94212", "process_in_blocks": "16", "process_out_blocks": "112"}
+[0m18:23:37.053559 [debug] [MainThread]: Command `dbt init` succeeded at 18:23:37.052894 after 305.55 seconds
+[0m18:23:37.058430 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x72cb7d76f3d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x72cb7cf07c10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x72cb7c0a70d0>]}
+[0m18:23:37.060045 [debug] [MainThread]: Flushing usage events
+[0m18:23:38.170845 [debug] [MainThread]: An error was encountered while trying to flush usage events
